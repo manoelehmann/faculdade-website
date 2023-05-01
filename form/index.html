@@ -1,0 +1,89 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="css.css">
+    <title>Formulário</title>
+</head>
+<body>
+<main class="principal">
+<form>
+    <h1 class="titulo">MANUTENÇÃO DE USUÁRIOS DO SISTEMA INTERNO</h1>
+
+    <label for="login" class="log">Login</label>
+    <input type="login" class="login" name="login"><br>
+
+    <label for="senha">Senha</label>
+    <input type="senha" class="senha" name="senha"><br>
+
+    <label for="status" class="stats">Status</label>
+    <select class="status">
+        <option selected disabled>Selecionar</option>
+        <option>Inativo</option>
+        <option>Ativo</option>
+    </select><br>
+
+    <label for="tipo" class="tipo">Tipo</label>
+    
+    <div class="type">
+        <input type="radio" name="aluno">
+        <label>Técnico</label>
+        <input type="radio" name="aluno">
+        <label>Professor</label>
+        <input type="radio" name="aluno">
+        <label>Aluno</label><br>
+    </div>
+
+    
+    <div class="dataa">
+        <label for="data" class="data">Data Criação</label>
+        <input type="date" class="date" name="date"><br>
+    </div>
+
+        <label for="perfil" class="perfil">Perfil</label>
+    
+        <div class="menu">
+        <input type="radio" name="convidado">
+        <label>Convidado</label>
+        <input type="radio" name="convidado">
+        <label>Administrador</label><br>
+        </div>
+
+    <label for="observacao" class="obs">Observação</label>
+  <textarea name="observacao" class="observacao" rows="4
+  " cols="50"></textarea><br>
+
+
+   <label for="modulo" class="mod">Módulos</label>
+
+
+   <div class="mod1">
+       <input type="radio" name="modulo">
+       <label for="compras">Compras</label>
+   </div>
+   <div class="mod2">
+       <input type="radio" name="modulo">
+       <label for="biblioteca">Biblioteca</label>
+   </div>
+   <div class="mod3">
+       <input type="radio" name="modulo">
+       <label for="academico">Acadêmico</label>
+   </div><br>
+
+   <div class="mod4">
+       <input type="radio" name="modulo">
+       <label for="documentacao">Documentação</label>
+   </div>
+   <div class="mod5">
+       <input type="radio" name="modulo">
+       <label for="rh">Recursos Humanos</label>
+   </div><br>
+
+
+   <button class="cadastrar">Cadastrar</button> <button class="excluir">Excluir</button>
+</form>
+</main>
+</body>
+</html>

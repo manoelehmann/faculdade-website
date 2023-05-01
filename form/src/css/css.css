@@ -1,0 +1,157 @@
+.principal{
+     display: flex;
+     justify-content: center;
+     align-items: center;
+     position: relative;
+     left: 60px;
+     top: 100px;
+}
+
+.titulo{
+     font-size: 130%;
+     display: flex;
+     position: relative;
+     top: 25px;
+}
+
+.login{
+     display: flex;
+     position: relative;
+     left: 137px;
+     top: 12px;
+}
+
+.log{
+     display: flex;
+     position: relative;
+     top: 32px;
+}
+
+.senha{
+     display: flex;
+     position: relative;
+     left: 137px;
+     bottom: 18px;
+}
+
+.status{
+     display: flex;
+     position: relative;
+     left: 137px;
+     bottom: 50px;
+}
+
+.stats{
+     display: flex;
+     position: relative;
+     bottom: 32px;
+}
+
+.tipo{
+     display: flex;
+     position: relative;
+     bottom: 60px;
+}
+
+.type{
+     display: flex;
+     position: relative;
+     bottom: 80px;
+     left: 137px;
+}
+
+.dataa{
+     display: flex;
+     position: relative;
+     bottom: 70px ;
+}
+
+.date{
+     display: flex;
+     position: relative;
+     left: 55px;
+}
+
+.perfil{
+     display: flex;
+     position: relative;
+     bottom: 66px;
+}
+
+.menu{
+     display: flex;
+     position: relative;
+     bottom: 84px;
+     left: 137px;
+}
+
+.obs{
+     display: flex;
+     position: relative;
+     bottom: 52px;
+}
+
+.observacao{
+     display: flex;
+     position: relative;
+     left: 137px;
+     bottom: 95px;
+     overflow-x: scroll;
+     overflow-y: scroll;
+     
+}
+
+.mod{
+   display: flex; 
+   position: relative;
+   bottom: 75px;
+}
+
+.mod1{
+     display: flex;
+     position: relative;
+     left: 137px;
+     bottom: 120px;
+}
+
+.mod2{
+     display: flex;
+     position: relative;
+     left: 230px;
+     bottom: 138px;
+}
+
+.mod3{
+     display: flex;
+     position: relative;
+     left: 334px;
+     bottom: 156px;
+}
+
+.mod4{
+     display: flex;
+     position: relative;
+     left: 137px;
+     bottom: 140px;
+}
+
+.mod5{
+     display: flex;
+     position: relative;
+     left: 275px;
+     bottom: 159px;
+}
+
+.cadastrar{
+     display: flex;
+     position: relative;
+     
+     bottom: 159px;
+}
+
+.excluir{
+     display: flex;
+     position: relative;
+     left: 80px;
+     bottom: 180px;
+}
